@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html >
+    <head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href="data:image/png;base64,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">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Welcome World!">
+<meta name="author" content="Tebogo">
+<meta name="keywords" content="HTML, Everything, Tebogo">
+<meta http-equiv="content-type" content="application/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en-us" />
+        <title>Cooltebza - Maths</title>
+        
+  
+<style>
+
+.butSize {
+width:100%;
+height:100%;
+}
+.btnS {
+width:60%;float:left;height:100%;background-color:transparent;border-color:transparent;
+}
+.btnS1 {
+width:20%;float:left;height:100%;
+
+}
+.btnS3 {
+width:100%;height:100%;font-size: 17px;font-style: bold;font-family: Virtual DJ;
+
+}
+
+.btnS34 {
+font-size: 17px;font-style: bold;font-family: Virtual DJ;
+
+}
+/*
+to stop user from selecting font or text
+    
+*/
+/* user-select: none; */
+    /* -webkit-user-select: none; */
+.colo2 {color: rgb(128, 128, 128);background-color:  rgb(244, 244, 244);}
+#PreviousDay, #NextDay{cursor: pointer;}
+#PreviousDay:active, #NextDay:active{color: black;background-color: silver;}
+
+
+
+</style>
+    </head>
+    <body>       
+        <table border="1" style="width:100%;height:500px;">
+            <thead>
+                <tr class="">
+                    <th colspan="7">
+                        
+                    </th>
+                </tr>
+                <tr class="">
+                    <th id="PreviousDay">PreviousDay</th>
+					<th  id="Days" >Day: 1</th>
+					<th  id="Weekdays" colspan="3"></th>
+					<th style="padding: 0px;"><button id="Weeks-"class="btnS1">-</button><button id="Weeks" class="btnS">Week: 1</button><button id="Weeks+" class="btnS1">+</button></th>
+					<th id="NextDay">NextDay</th>
+                </tr>
+				<tr class="">
+                    <th colspan="3">QUESTIONS</th>
+                    <th colspan="3">REQUIRED ANSWERS</th>
+                    <th>MARKS</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+			
+                <tr>
+				<td colspan="3" class="btnS34">0+0</td>
+                <td colspan="3"><input id="ADD0" class="btnS3"></td>
+                <td id="marks0" ></td>  
+                </tr>
+				
+                <tr>
+				<td colspan="3" class="btnS34">1+1</td>
+                <td colspan="3"><input id="ADD1" class="btnS3"></td>
+                <td id="marks1" ></td>  
+                </tr>
+				
+                <tr>
+                <td colspan="3" class="btnS34">2+2</td>
+                <td colspan="3"><input id="ADD2" class="btnS3"></td>
+                <td id="marks2" ></td>   
+                </tr>
+				
+                <tr>
+                <td colspan="3" class="btnS34">3+3</td>
+                <td colspan="3"><input id="ADD3" class="btnS3"></td>
+                <td id="marks3" ></td>    
+                </tr>
+				
+                <tr>
+                <td colspan="3" class="btnS34">4+4</td>
+                <td colspan="3"><input id="ADD4" class="btnS3"></td>
+                <td id="marks4" ></td>  
+                </tr>
+				
+				<tr>
+				<td colspan="3" class="btnS34">5+5</td>
+                <td colspan="3"><input id="ADD5" class="btnS3"></td>
+                <td id="marks5" ></td>  
+                </tr>
+				
+                <tr>
+                <td colspan="3" class="btnS34">6+6</td>
+                <td colspan="3"><input id="ADD6" class="btnS3"></td>
+                <td id="marks6" ></td>   
+                </tr>
+				
+                <tr>
+                <td colspan="3" class="btnS34">7+7</td>
+                <td colspan="3"><input id="ADD7" class="btnS3"></td>
+                <td id="marks7" ></td>    
+                </tr>
+				
+                <tr>
+                <td colspan="3" class="btnS34">8+8</td>
+                <td colspan="3"><input id="ADD8" class="btnS3"></td>
+                <td id="marks8" ></td>  
+                </tr>
+				
+				<tr>
+                <td colspan="3" class="btnS34">9+9</td>
+                <td colspan="3"><input id="ADD9" class="btnS3"></td>
+                <td id="marks9" ></td>  
+                </tr>
+				
+				<tr>
+                <td colspan="3" class="btnS34">10 + 10</td>
+                <td colspan="3"><input id="ADD10" class="btnS3"></td>
+                <td id="marks10" ></td>  
+                </tr>
+				
+				<tr>
+                <td colspan="3" class="btnS34"></td>
+                <td colspan="3"><input type="submit" onclick="Q1()" class="btnS3"></td>
+                <td ></td>  
+                </tr>
+               
+            </tbody>
+        </table>
+		
+		<script type='text/javascript' >
+		/*
+		Weekdays
+		NumberOfDays
+		ADD1
+		marks10
+		*/
+		let N1 = ['0','1','2','3','4','5','6','7','8','9','10'];
+		let A1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+		let S1 = ['+','*','/','÷'];
+		
+		const add0 = document.getElementById("ADD0");
+		const add1 = document.getElementById("ADD1");
+		const add2 = document.getElementById("ADD2");
+		const add3 = document.getElementById("ADD3");
+		const add4 = document.getElementById("ADD4");
+		const add5 = document.getElementById("ADD5");
+		const add6 = document.getElementById("ADD6");
+		const add7 = document.getElementById("ADD7");
+		const add8 = document.getElementById("ADD8");
+		const add9 = document.getElementById("ADD9");
+		const add10 = document.getElementById("ADD10"); 
+		
+		const marks0 = document.getElementById("marks0");
+		
+var daysCount = 1;			
+		const weekDays = document.getElementById("Weekdays");
+		const numberOfDays = document.getElementById("Days");
+		const numberOfWeeks = document.getElementById("Weeks");
+		const previousDay = document.getElementById("PreviousDay");
+		let nextDays = document.getElementById("NextDay");
+		
+if(numberOfDays.innerHTML === 'Day: 1'){
+		dayDisplay();previousDay.className = "colo2";previousDay.style = "disabled";
+	}
+	
+		previousDay.addEventListener("click", function(){
+	
+	if(daysCount === 1){
+		previousDay.className = "colo2";nextDays.removeAttribute('class', 'colo2');
+	}else{daysCount -= 1; numberOfDays.innerHTML = 'Day: '+ daysCount;dayDisplay();nextDays.className = "colo2";
+	}
+	
+		});
+		nextDays.addEventListener("click", function(){
+		if(daysCount === 7){
+		nextDays.className = "colo2";previousDay.removeAttribute('class', 'colo2');
+	}else{daysCount += 1; numberOfDays.innerHTML = 'Day: '+ daysCount;dayDisplay();previousDay.className = "colo2";
+	}
+
+		});
+
+	function Q1(){
+if(add1.value == "2"){marks1.textContent = 'Correct';}else{marks1.textContent = 'Incorrect';}
+if(add2.value == "4"){marks2.textContent = 'Correct';}else{marks2.textContent = 'Incorrect';}   
+if(add3.value == "6"){marks3.textContent = 'Correct';}else{marks3.textContent = 'Incorrect';}
+if(add4.value == "8"){marks4.textContent = 'Correct';}else{marks4.textContent = 'Incorrect';}	
+if(add5.value == "10"){marks5.textContent = 'Correct';}else{marks5.textContent = 'Incorrect';}	
+if(add6.value == "12"){marks6.textContent = 'Correct';}else{marks6.textContent = 'Incorrect';}	
+if(add7.value == "14"){marks7.textContent = 'Correct';}else{marks7.textContent = 'Incorrect';}	
+if(add8.value == "16"){marks8.textContent = 'Correct';}else{marks8.textContent = 'Incorrect';}
+if(add9.value == "18"){marks9.textContent = 'Correct';}else{marks9.textContent = 'Incorrect';}
+if(add10.value == "20"){marks10.textContent = 'Correct';}else{marks10.textContent = 'Incorrect';}
+if(add0.value == "0"){marks0.textContent = 'Correct';}else{marks0.textContent = 'Incorrect';}
+}
+	
+	function dayDisplay(){
+	
+		switch (numberOfDays.innerHTML)
+ {
+     case '7': case 'Day: 7':
+     {
+        weekDays.innerHTML = 'Sunday'; 
+         break;
+     };
+     case '1': case 'Day: 1':
+     {
+        weekDays.innerHTML = 'Monday'; 
+         break;
+     };
+	 case '2': case 'Day: 2':
+     {
+         weekDays.innerHTML = 'Tuesday'; 
+         break;
+     };
+     case '3': case 'Day: 3':
+     {
+        weekDays.innerHTML = 'Wednesday';
+         break;
+     };
+	 case '4': case 'Day: 4':
+     {
+         weekDays.innerHTML = 'Thursday';
+         break;
+     };
+     case '5': case 'Day: 5':
+     {
+         weekDays.innerHTML = 'Friday'; 
+         break;
+     };
+	 case '6': case 'Day: 6':
+     {
+         weekDays.innerHTML = 'Saturday'; 
+         break;
+     };
+     default:
+     {
+         weekDays.innerHTML = 'no days left'; 
+     };
+ }
+}
+	
+	                /*
+					
+		wrong == red image icon
+		right == green image icon
+		question
+		counting
+		reading
+		calculating
+		solve
+		find
+		cross
+		true or false
+		
+		
+					
+					*/
+		</script>
+    </body>
+</html>
